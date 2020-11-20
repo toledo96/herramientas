@@ -41,13 +41,27 @@
 
 }
 
+.derecha{
+  position: relative;
+  bottom: 200px;
+}
+
 .imagen2{
-    margin-top: -72px;
-    z-index: -5;
+    /* margin-top: 170px;
+    z-index: -10;
     position: relative;
     bottom: 480px;
     border-radius: 100px;
-    right: -30px;
+    right: -30px; */
+    background: url('../img/explora2.png');
+    width: 500px;
+    padding: 200px;
+    position: relative;
+    bottom: 500px;
+    left: 200px;
+    border-radius: 100px;
+    height: 500px;
+
 }
 
 .botones{
@@ -56,6 +70,6 @@
 
 .abajo{
     position: relative;
-    top: 150px;
+    top: 90px;
     right: 170px;
 }
